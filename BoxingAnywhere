@@ -1,0 +1,28 @@
+-- SYNAPSE ONLY BECAUSE IT USES FIRETOUCHINTREST FUNCTION
+ 
+local Player = game.Players.LocalPlayer
+while wait() do
+    local function Boxing()
+        local BoxingValue = Player.DataFolder.Information.BoxingValue
+        Player.PlayerGui.MainScreenGui.Bar.Energy.TextLabel.Text = tostring(BoxingValue.Value)
+        if Player.Character.BodyEffects.Attacking.Value == true then
+            for _,BoxingChild in pairs(game:GetService("Workspace").MAP.Map.ArenaBOX:GetChildren()) do
+                if BoxingChild.Name == 'PunchingBagInGame' then
+                    for _,PunchPart in pairs(BoxingChild:GetChildren()) do
+                        if PunchPart:IsA('Part') or PunchPart:IsA('MeshPart') then
+                            if Player.Character:FindFirstChildOfClass('Tool') then
+                                if Player.Character:FindFirstChildOfClass('Tool') then
+                                    firetouchinterest(Player.Character['RightHand'], PunchPart, 0)
+                                    firetouchinterest(Player.Character['LeftHand'], PunchPart, 0)
+                                    firetouchinterest(Player.Character['RightLowerLeg'], PunchPart, 0)
+                                    firetouchinterest(Player.Character['LeftLowerLeg'], PunchPart, 0)
+                                end
+                            end
+                        end
+                    end
+                end
+            end
+        end
+    end
+    local s,e = pcall(Boxing)
+end
