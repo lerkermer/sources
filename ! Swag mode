@@ -1,1 +1,13 @@
-
+-- MAIN SCRIPTS --
+(copy just the loadstring obviously)
+ 
+SWAG MODE [ Newest ]
+loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))() 
+ 
+-- EXTRAS --
+ 
+SWAG MODE [ Old ]
+loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/OldSwagmode'))()
+ 
+ADMIN FLY
+loadstring(game:HttpGet("https://raw.githubusercontent.com/22kristina/swag/main/admin_fly"))()
