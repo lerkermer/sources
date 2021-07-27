@@ -1,1 +1,2 @@
 OPEN ! Swag mode TO FIND ALL THE LOADSTRINGS
+OPEN !z Development Logs FOR UPDATES
