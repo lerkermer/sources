@@ -1,12 +1,16 @@
--- MAIN SCRIPTS --
 (copy just the loadstring obviously)
  
-SWAG MODE [ Newest ]
+ 
+Server Crasher / Duper
+loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))() 
+ 
+SM [ MAIN ]
 loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))() 
  
+
 -- EXTRAS --
  
-SWAG MODE [ Old ]
+SM [ OLD ]
 loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/OldSwagmode'))()
  
 ADMIN FLY
