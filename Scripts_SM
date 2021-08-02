@@ -1,5 +1,6 @@
 (copy just the loadstring obviously)
- 
+
+ SM Premium Information can be found here : https://pastebin.com/raw/e09rcD3x
  
 Server Crasher / Duper
 loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))() 
@@ -15,3 +16,4 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-project
  
 ADMIN FLY
 loadstring(game:HttpGet("https://raw.githubusercontent.com/22kristina/swag/main/admin_fly"))()
+
